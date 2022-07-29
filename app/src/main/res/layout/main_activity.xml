@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/thruLabel"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/thur_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wedLabel" />
+
+    <TextView
+        android:id="@+id/thurTimeLabel"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/thur_time_label"
+        app:layout_constraintEnd_toStartOf="@+id/thruStaffLabel"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toEndOf="@+id/thruLabel"
+        app:layout_constraintTop_toBottomOf="@+id/wedTimeLabel" />
+
+    <TextView
+        android:id="@+id/thruStaffLabel"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/thur_staff_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wedStaffLabel" />
+
+    <TextView
+        android:id="@+id/wedLabel"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/wed_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tuePmLabel" />
+
+    <TextView
+        android:id="@+id/wedTimeLabel"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/wed_time_label"
+        app:layout_constraintEnd_toStartOf="@+id/wedStaffLabel"
+        app:layout_constraintStart_toEndOf="@+id/wedLabel"
+        app:layout_constraintTop_toBottomOf="@+id/tuePmTimeLabel" />
+
+    <TextView
+        android:id="@+id/wedStaffLabel"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/wed_staff_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tuePmStaffLabel" />
+
+    <TextView
+        android:id="@+id/tuePmLabel"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/tue_pm_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tueAmLabel" />
+
+    <TextView
+        android:id="@+id/tuePmTimeLabel"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/tue_pm_time_label"
+        app:layout_constraintEnd_toStartOf="@+id/tuePmStaffLabel"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tuePmLabel"
+        app:layout_constraintTop_toBottomOf="@+id/tueAmTimeLabel" />
+
+    <TextView
+        android:id="@+id/tuePmStaffLabel"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/tue_pm_staff_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tueAmStaffLabel" />
+
+    <TextView
+        android:id="@+id/tueAmLabel"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/tue_am_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/monLabel" />
+
+    <TextView
+        android:id="@+id/tueAmTimeLabel"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/tue_am_time_label"
+        app:layout_constraintEnd_toStartOf="@+id/monStaffLabel"
+        app:layout_constraintStart_toEndOf="@+id/monLabel"
+        app:layout_constraintTop_toBottomOf="@+id/monTimeLabel" />
+
+    <TextView
+        android:id="@+id/tueAmStaffLabel"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/tue_am_staff_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/monStaffLabel" />
+
+    <TextView
+        android:id="@+id/monLabel"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/mon_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dayLabel" />
+
+    <TextView
+        android:id="@+id/monTimeLabel"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/mon_time_label"
+        app:layout_constraintEnd_toStartOf="@+id/monStaffLabel"
+        app:layout_constraintStart_toEndOf="@+id/monLabel"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/monStaffLabel"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/mon_staff_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/staffLabel" />
+
+    <TextView
+        android:id="@+id/dayLabel"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/day_label"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/timeLabel"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/time_label"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/staffLabel"
+        app:layout_constraintStart_toEndOf="@+id/dayLabel"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/staffLabel"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/staff_label"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/openButton"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/open_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thurTimeLabel" />
+
+</android.support.constraint.ConstraintLayout>

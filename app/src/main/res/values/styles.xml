@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/whiteBack</item>
+        <item name="android:textColor">@color/textDark</item>
+        <item name="android:button">@color/colorButtonLight</item>
+    </style>
+
+    <!-- Dark theme application theme. -->
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/darkBack</item>
+        <item name="android:textColor">@color/textSecond</item>
+        <item name="android:button">@color/colorButtonDark</item>
+        <item name="android:itemBackground">@color/darkBack</item>
+        <item name="android:textColorSecondary">@color/textWhite</item>
+        <!-- Top one Changes the menu background color to match the theme -->
+    </style>
+</resources>
